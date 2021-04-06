@@ -43,6 +43,7 @@ console.log(testVar, testLet, testConst);
 //  데이터가 할당될 때 그 타입이 결정된다
 let v = "This is String";
 //  데이터 타입의 확인 -> typeof
+//  인터 프리터 방식이어서 실행시에만 오류확인 -> 주의
 console.log(v, "->", typeof v);
 v = 2021;
 console.log(v, "->", typeof v);
